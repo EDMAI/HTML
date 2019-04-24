@@ -1,0 +1,61 @@
+<!-- #바디를 설명하는 태그들은 head태그로 묶기로 약속했다. -->
+<!-- #따라서 모든 태그는 head태그든 body태그든 둘 중 하나 아래에 놓이게 된다. -->
+
+
+<!-- # 관용적인 어법, 이것은 html로 쓰여있다. -->
+<!doctype html>
+<!-- #최고위층 태그는 html태그다. -->
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5X63DKR');</script>
+    <!-- End Google Tag Manager -->
+    <!-- 타이틀제목 -->
+    <title>Web -1 html</title>
+    <!-- 본문이 utf-8로 저장되어 있다. -->
+    <meta charset="utf-8">
+    <style>
+      #html{color:red;}
+      .css{color:blue;}
+      li{background:green;}
+      #java1{text_align:middle;}
+      .html2{font-size:15px;}
+      #css2{font-weight:bold;
+        line-height:2em;}
+      #java2{font-style:italic;
+        text-align:left;}
+
+    </style>
+  </head>
+  #본문(body)
+  <body>
+    <form action="/my-handling-form-page" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" />
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit">Send your message</button>
+        </div>
+    </form>
+
+<!-- a태그는 앵커태그다.-->
+<!-- a태그의 hypertext reference -->
+    <h1><a href="https://www.w3.org/TR/html5/">HTML이란 무엇인가?</a></h1>
+    <p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </body>
+<!html>
